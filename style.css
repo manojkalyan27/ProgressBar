@@ -1,0 +1,48 @@
+.ProgressBar{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 20px;
+}
+
+
+.circle{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 2px solid grey;
+    color: black;
+    background-color: white;
+    /* margin: 0px 10px;     */
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active{
+    border: 2px solid blue;
+}
+
+.line{
+    height: 2px;
+    flex: 1;  /* important  */
+    background-color: gray;
+}
+
+.line.active{
+    background: blue;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+    padding: 10px 20px;
+    margin: 0px 5px;
+
+}
+
+button:disabled{
+    cursor: not-allowed;
+}
